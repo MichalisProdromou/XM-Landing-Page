@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@font-face {
+  font-family: "Bebas_Bold";
+  src: url("/fonts/bebas/bebas_bold/bebasneue_bold-webfont.eot");
+  src: url("/fonts/bebas/bebas_bold/bebasneue_bold-webfont.woff") format("woff");
+  src: url("/fonts/bebas/bebas_bold/bebasneue_bold-webfont.svg") format("svg");
+  src: url("/fonts/bebas/bebas_bold/bebasneue_bold-webfont.ttf")
+}
+
+@font-face {
+  font-family: "Bebas_Regular";
+  src: url("/fonts/bebas/bebas_regular/bebasneue_regular-webfont.eot");
+  src: url("/fonts/bebas/bebas_regular/bebasneue_regular-webfont.woff") format("woff");
+  src: url("/fonts/bebas/bebas_regular/bebasneue_regular-webfont.svg") format("svg");
+  src: url("/fonts/bebas/bebas_regular/bebasneue_regular-webfont.ttf")
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1200px;
+  margin: auto;
+  color: #363636;
+}
+
+/* Utilities */
+.bg-black-opacity {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.bg-dark-grey {
+  background: #272727;
+}
+
+.bg-light-grey {
+  background: #C8C8C8;
+}
+
+.c-btn-red {
+  color: #D51820;
+  border-color: #D51820;
+}
+.c-btn-red:hover {
+  background-color: #D51820;
+  color: #fff;
+}
+
+.c-btn-light-grey {
+  color: #969696;
+  border-color: #969696;
+}
+.c-btn-light-grey:hover {
+  background-color: #969696;
+  color: #fff;;
+}
+
+.section-title {
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 900;
+  font-family: 'Roboto';
+}
+
+.section-subtitle {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.no-border-radius {
+  border-radius: 0;
+}
+
+.form-label {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+/* Navbar */
+#main-navbar {
+  height: 65px;
+}
+#main-navigation li a {
+  font-size: 13px;
+  line-height: 15px;  
+  color: #E8E8E8;
+}
+
+#main-navigation li:first-of-type{
+  border-right: 1px solid #3C3C3C;
+}
+
+
+/* Header */
+.hero {
+  background: url("/images/Bg.jpg") no-repeat center center/cover;
+  height: 440px;
+  position: relative;
+}
+
+#header-content {
+  height: 375px;
+}
+
+/* Header content */
+#header-content .divider {
+  flex-grow:1;
+  height: 2px;
+  background: #fff;
+}
+
+#header-content #support-text-parent {
+  margin-top: 70px;
+}
+#header-content #promo-supporting {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0px auto;
+  font-weight: 700;
+  position: relative;
+}
+
+#header-content #promo {
+  font-size: 90px;
+  line-height: 120px;
+  font-family: "Bebas_Regular", Arial, sans-serif;
+  font-weight: 700;
+}
+.c-btn-xl {
+  font-size: 26px;
+  line-height: 20px;
+  width: 289px;
+  height: 43px;
+  border-radius: 0;
+  background: #29A643;
+}
+
+#header-content #acc-btn-support-text {
+  font-size: 13px;
+  line-height: 15px;
+  color: #E8E8E8;
+  margin-bottom: 0;
+  margin-top: 28px;
+}
+
+/* Section: Carousel */
+.c-carousel-control {
+  color: #B3B3B3;
+  font-size: 54px;
+  line-height: 50px;
+  background-color: transparent;
+}
+
+ #carousel-section #carousel-buttons-selection .btn-group .btn {
+  border-radius: 0;
+  width: 200px;
+}
+
+
+#carousel-section #carousel-slider #carousel picture img {
+  height: 400px;
+  object-fit: contain;
+}
+
+#carousel-product-descriptions .product-title {
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+#carousel-product-descriptions .product-description {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#carousel-product-descriptions .product-point {
+  font-size: 14px;
+  line-height: 34px;
+}
+
+.product-platforms span{
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.product-platforms .fa {
+  color: #D3D3D3;
+}
+
+#products-open-acc {
+  margin-top: 60px;
+  margin-bottom: 55px;
+}
+
+.c-btn-xl {
+  font-size: 26px;
+  line-height: 20px;
+  width: 289px;
+  height: 43px;
+  border-radius: 0;
+}
+
+
+/* Section: Currency converter */
+#currency-converter {
+  height: 400px;
+  background:#EFEFEF;
+  padding: 55px 20px;
+}
+
+#currency-converter #convert-btn {
+  background: #4A4A4A;
+  color: #fff;
+  margin-top: 30px;
+  width: 68px;
+}
+
+#currency-converter #convert-result {
+  margin-left: 20px;
+}
+
+#currency-converter #convert-result #convert-result-input{
+  border-left: 0;
+}
+
+
+/* Section: Job openings */
+#job-openings {
+  padding-top: 80px;
+}
+
+#job-openings #job-openings-form {
+  margin-top: 38px;
+  margin-bottom: 70px;
+}
+
+#office-select, #job-select {
+  background: #F6F6F6;
+}
+
+
+/* Section: Footer */
+footer {
+  background: #000;
+  color: #747474;
+  height: 250px;
+}
+
+footer p {
+  font-size: 13px;
+  line-height: 17px;
+  margin: 0;
+}
+
+footer #footer-content {
+  justify-content: center;
+  align-items: center;
+}
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  /* Utilities */
+  .section-title {
+    font-size: 28px;
+  line-height: 33px;
+  }
+  #header-content #support-text-parent {
+    margin-top: 100px;
+  }
+  #header-content  #promo-supporting {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 400px;
+  }
+  #header-content #promo-supporting::before {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+  }
+  
+  #header-content #promo-supporting::after {
+    content: "";
+    display: block;
+    width: 35px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+
+  #header-content #promo {
+    font-size: 134px;
+    line-height: 120px;
+  }
+  #header-content #checkboxes-area span {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .c-btn-xl {
+    font-size: 32px;
+    line-height: 20px;
+    width: 412px;
+    height: 60px;
+  }
+
+  /* Header */
+  .hero {
+    height: 525px;
+  }
+  #header-content {
+    height: 460px;
+  }
+  #header-content #acc-btn-support-text {
+    margin-top: 15px;
+  }
+
+   /* Section: Instruments */
+  #instruments {
+    max-width: 100%;
+  }
+
+  #instruments #instruments-main{
+    height: 88px;    
+    border-top: 1px solid #666666;
+  }
+
+  #instruments #instruments-main img{
+    width: 30px;
+    height: 30px;
+  }
+
+  #instruments #instruments-main h4{
+    font-size: 16px;
+    line-height: 19px;  
+    display: inline-block;
+  }
+
+  #instruments #instruments-supporting p {
+    font-size: 13px;
+    line-height: 15px;  
+  }
+
+  /* Section: Carousel */
+  #carousel-section #carousel-slider #carousel picture img {
+    height: 360px;
+  }
+
+  #products-open-acc {
+    margin-bottom: 80px;
+  }
+
+  /* Section: Currency converter */
+  #currency-converter {
+    height: 375px;
+  }
+  #currency-converter #convert-result {
+    margin-left: 0px;
+  }
+
+  /* Section: Job openings */
+  #job-openings #job-openings-form {
+    margin-top: 58px;
+    margin-bottom: 100px;
+  }
+
+  footer {
+    height: 160px;
+  }
+
+ }
+
+ /* Large screen / desktop */
+ @media (min-width: 992px) { 
+  #main-navbar {
+    height: 85px;
+  }
+  #header-content #support-text-parent {
+    margin-top: 185px;
+  }
+  #header-content  #promo-supporting {
+    font-size: 20px;
+    line-height: 24px;
+    max-width: 600px;
+  }
+  #header-content #promo-supporting::before {
+    width: 95px;
+  }
+  
+  #header-content #promo-supporting::after {
+    width: 95px;
+  }
+
+  #header-content #acc-btn-support-text {
+    margin-top: 30px;
+  }
+  #header-content #promo {
+    font-size: 208px;
+    line-height: 199px;
+  }
+  #header-content #checkboxes-area span {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .c-btn-xl {
+    font-size: 32px;
+    line-height: 20px;
+    width: 500px;
+    height: 60px;
+  }
+
+  /* Header */
+  .hero {
+    height: 800px;
+  }
+  #header-content {
+    height: 715px;
+  }
+
+  #instruments #instruments-main .col:not(:last-child){
+    border-right: 1px solid #6b6b6b;
+  }
+
+  /* Section: Instruments */
+  #instruments #instruments-main img{
+    width: 36px;
+    height: 36px;
+  }
+
+  #instruments #instruments-main h4{
+    font-size: 18px;
+    line-height: 21px;  
+  }
+
+  #instruments #instruments-supporting p {
+    font-size: 14px;
+    line-height: 16px;  
+  }
+
+  /* Section: Carousel */
+  #carousel-section #carousel-slider #carousel picture img {
+    height: 620px;
+  }
+
+  #products-open-acc {
+    margin-top: 80px auto;
+  }
+
+   /* Section: Currency converter */
+   #currency-converter {
+    height: 195px;
+  }
+
+  /* Section: Job openings */
+  #job-openings #job-openings-form {
+    margin-top: 24px;
+    margin-bottom: 120px;
+  }
+
+  footer p {
+    display: inline-block;
+  }
+  
+}
